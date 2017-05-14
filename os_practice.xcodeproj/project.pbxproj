@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0AC26E1EC7057100B92B62 /* practice_condition_variable.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AC26B1EC7057100B92B62 /* practice_condition_variable.c */; };
+		4B0AC26F1EC7057100B92B62 /* practice_pthread_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AC26C1EC7057100B92B62 /* practice_pthread_mutex.c */; };
+		4B0AC2701EC7057100B92B62 /* practice_pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AC26D1EC7057100B92B62 /* practice_pthread.c */; };
+		4B0AC2721EC705AD00B92B62 /* practice_callback_function.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AC2711EC705AD00B92B62 /* practice_callback_function.c */; };
 		4BBE4CB11EBDE54A00082C61 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE4CB01EBDE54A00082C61 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B0AC26A1EC7057100B92B62 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4B0AC26B1EC7057100B92B62 /* practice_condition_variable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = practice_condition_variable.c; sourceTree = "<group>"; };
+		4B0AC26C1EC7057100B92B62 /* practice_pthread_mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = practice_pthread_mutex.c; sourceTree = "<group>"; };
+		4B0AC26D1EC7057100B92B62 /* practice_pthread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = practice_pthread.c; sourceTree = "<group>"; };
+		4B0AC2711EC705AD00B92B62 /* practice_callback_function.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = practice_callback_function.c; sourceTree = "<group>"; };
 		4BBE4CAD1EBDE54A00082C61 /* os_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = os_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBE4CB01EBDE54A00082C61 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +66,12 @@
 		4BBE4CAF1EBDE54A00082C61 /* os_practice */ = {
 			isa = PBXGroup;
 			children = (
+				4B0AC26A1EC7057100B92B62 /* Header.h */,
+				4B0AC26B1EC7057100B92B62 /* practice_condition_variable.c */,
+				4B0AC26C1EC7057100B92B62 /* practice_pthread_mutex.c */,
+				4B0AC26D1EC7057100B92B62 /* practice_pthread.c */,
 				4BBE4CB01EBDE54A00082C61 /* main.c */,
+				4B0AC2711EC705AD00B92B62 /* practice_callback_function.c */,
 			);
 			path = os_practice;
 			sourceTree = "<group>";
@@ -119,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0AC26E1EC7057100B92B62 /* practice_condition_variable.c in Sources */,
+				4B0AC2701EC7057100B92B62 /* practice_pthread.c in Sources */,
 				4BBE4CB11EBDE54A00082C61 /* main.c in Sources */,
+				4B0AC26F1EC7057100B92B62 /* practice_pthread_mutex.c in Sources */,
+				4B0AC2721EC705AD00B92B62 /* practice_callback_function.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +264,7 @@
 				4BBE4CB61EBDE54A00082C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

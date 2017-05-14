@@ -17,7 +17,8 @@
 int main(int argc, const char * argv[]) {
     //practice_mutex();
     //practice_pthread();
-    practice_cond();
+    //practice_cond();
+    practice_callback_func();
     return 0;
 }
 
